@@ -3,7 +3,7 @@ const colors = require('colors');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const app = express();
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5001
 dotenv.config()
 
 // DB Connection
